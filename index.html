@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forum 4</title>
+</head>
+
+<body>
+  <form method="post" action="formAction.php">
+    <div class="" style="display: block; margin-bottom: 10px;">
+      <label for="kode">Kode</label>
+      <input type="text" name="kode" id="kode">
+    </div>
+    <div class="" style="display: block; margin-bottom: 10px;">
+      <label for="nama">Nama</label>
+      <input type="text" name="nama" id="nama">
+    </div>
+    <div class="" style="display: block; margin-bottom: 10px;">
+      <label for="jk">Jenis Kelamin</label>
+      <input type="radio" name="jk" id="jk"> Laki-laki
+      <input type="radio" name="jk" id="jk"> Perempuan
+    </div>
+    <div class="" style="display: block; margin-bottom: 10px;">
+      <label for="agama">Agama</label>
+      <select name="agama" id="agama">
+        <option value="Islam">Islam</option>
+        <option value="Kristen">Kristen</option>
+        <option value="Budha">Budha</option>
+        <option value="Hindu">Hindu</option>
+        <option value="Katolik">Katolik</option>
+      </select>
+    </div>
+    <div class="" style="display: block; margin-bottom: 10px;">
+      <label for="alamat">Alamat</label>
+      <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
+    </div>
+    <div class="" style="display: block; margin-bottom: 10px;">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+    </div>
+    <button type="submit">Simpan</button>
+  </form>
+</body>
+
+</html>
